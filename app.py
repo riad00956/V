@@ -77,7 +77,7 @@ async def start_user_listener(uid, api_id, api_hash, string_session):
                 # ৩. ১৫ সেকেন্ড টাইমার (Online Burst)
                 reply_tracking[uid] = reply_tracking.get(uid, 0) + 1
                 current_call = reply_tracking[uid]
-                await asyncio.sleep(15)
+                await asyncio.sleep(6)
                 
                 # ৪. অফলাইনে ফিরে যাওয়া
                 if reply_tracking.get(uid) == current_call:
