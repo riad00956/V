@@ -101,7 +101,6 @@ async def welcome(m):
         "👻 𝙿𝚑𝚊𝚗𝚝𝚘𝚖 𝚁𝚎𝚙𝚕𝚢\n\n"
         "Welcome to your Telegram shadow.\n"
         "When you are offline, I automatically reply to messages for you.\n\n"
-        "আপনি অনলাইনে থাকলে আমি কোনো রিপ্লাই করবো না.\n\n"
         "⚡ Smart Presence Detection\n"
         "💬 Custom Auto Reply\n"
         "🔐 Secure Login System\n\n"
